@@ -6,10 +6,10 @@ require 'htmlentities'
 require 'twitter'
 
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key = 'XXbxNBt1fty6C2ZWXanaFyzly'
-  config.consumer_secret = 'LZ5HCjHlxOn6DacJWKABl43PADPdI6Hw1p7QcYMX0JtfCN705w'
-  config.access_token = '3171027360-JoTtCAudsy4YEnzHfQVif1DlwQsImffcuaOyJD0'
-  config.access_token_secret = 'wwTm5AFwKo4GmIRZlh7N0rQF6VHd6o35KDENC840S5WUQ'
+  config.consumer_key = 'secret'
+  config.consumer_secret = 'secret'
+  config.access_token = 'secret'
+  config.access_token_secret = 'secret'
 end
 
 coder = HTMLEntities.new
